@@ -1,0 +1,24 @@
+{
+    "name": "balogunusman/wallet",
+    "description": "A reusable wallet management package for Laravel applications.",
+    "authors": [
+        {
+            "name": "Balogun Usman",
+            "email": "usmanbalogun044@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BalogunUsman\\Wallet\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BalogunUsman\\Wallet\\WalletServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
